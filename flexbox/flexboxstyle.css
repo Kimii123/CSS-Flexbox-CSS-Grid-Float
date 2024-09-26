@@ -1,0 +1,48 @@
+
+.container {
+    margin-left: 20px;
+    padding-left: 20px; 
+
+}
+
+body {
+    background-color: rgb(74, 202, 253);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px; /* Jokaiselle laatikolle oma koko */
+    gap: 20px; /* Välit laatikoiden välillä */
+    width: 100%; /* Koko leveys 100% */
+}
+
+.wrapper div {
+    background-color: rgb(255, 0, 0);
+    height: 100px; /* Laatikon korkeus */
+    border: 1px solid black; /* Musta reuna */
+    text-align: center;
+    line-height: 100px; /* Tekstin keskitys pystysuunnassa */
+}
+
+
+/*wrapper 2, toinen rivi*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 200px 490px 100px 100px; /* Jokaiselle laatikolle oma koko */
+    gap: 5px; /* Välit laatikoiden välillä */
+    width: 100%; /* Koko leveys 100% */
+}
+
+.wrapper2 div {
+    background-color: rgb(255, 0, 0);
+    height: 100px; /* Laatikon korkeus */
+    border: 1px solid black; /* Musta reuna */
+    text-align: center;
+    line-height: 100px; /* Tekstin keskitys pystysuunnassa */
+}
